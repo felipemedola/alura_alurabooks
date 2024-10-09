@@ -22,6 +22,7 @@
     color: var(--branco);
     padding: 1em;
     width: 100%;
+    align-items: center;
 }
 
 .banner__pesquisa::placeholder {
@@ -32,4 +33,5 @@
     color: var(--branco);
     background-image: url(../img/Lupa.svg);
     background-repeat: no-repeat;
+    background-position: center left;
 }
