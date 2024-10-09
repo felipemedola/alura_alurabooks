@@ -2,6 +2,7 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
     padding: 1em 0 0.5em;
     color: var(--laranja);
     background-color: var(--branco);
@@ -32,6 +33,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+}
+
+.descricao {
+    padding-right: 0.5em;
 }
 
 .descricao__titulo {
@@ -71,4 +76,8 @@
     text-decoration: none;
     color: var(--branco);
     background-color: var(--laranja);
+}
+
+.descricao__imagem-destaque {
+    margin-bottom: 0.5em;
 }
