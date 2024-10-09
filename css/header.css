@@ -56,3 +56,7 @@
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
