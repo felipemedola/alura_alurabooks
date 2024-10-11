@@ -105,7 +105,11 @@
         display: none;
     }
 
-    .teste:hover ~ .lista-menu {
+    .opcoes__botao:checked ~ .lista-menu {
         display: block;
+    }
+
+    .opcoes__botao {
+        display: none;
     }
 }

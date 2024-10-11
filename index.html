@@ -16,6 +16,7 @@
 
     <body>
         <header class="cabecalho">
+            <!-- Header Mobile -->
             <div class="container">
                 <input type="checkbox" id="menu" class="container__botao">
                 <label for="menu">
@@ -43,8 +44,28 @@
                 <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
             </div>
 
+            <!-- Header Desktop -->
             <ul class="opcoes">
-                <li class="opcoes__item teste">Categorias</li>
+                <input type= "checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu" class="opcoes__item">Categorias</label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">PROGRAMAÇÃO</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">FRONT-END</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">INFRAESTRUTURA</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">BUSINESS</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">DESIGN & UX</a>
+                    </li>
+                </ul>
                 <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
                 <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
             </ul>
