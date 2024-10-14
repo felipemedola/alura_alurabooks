@@ -107,9 +107,10 @@
 
     .opcoes__botao:checked ~ .lista-menu {
         display: block;
+        width: auto;
     }
 
     .opcoes__botao {
-        display: none;
+        display: none; 
     }
 }

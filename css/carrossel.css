@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev, 
+.swiper-button-next {
     display: none;
 }
 
@@ -80,4 +81,24 @@
 
 .descricao__imagem-destaque {
     margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+        padding: 1.5em 0 0.75em;
+    }
+    
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev, 
+    .swiper-button-next {
+        display: block;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0 4em;
+    }
 }
