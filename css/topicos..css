@@ -31,3 +31,23 @@
     color: var(--branco);
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos {
+        padding: 1em 0;
+        border-top: none;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__lista {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+}

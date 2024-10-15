@@ -96,9 +96,19 @@
     .swiper-button-prev, 
     .swiper-button-next {
         display: block;
+        top: 60%;
     }
 
     .swiper-pagination {
         margin: 1em 0 4em;
+    }
+
+    .card {
+        width: 40%;
+        margin: 3em auto 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 26px;
     }
 }
