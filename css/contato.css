@@ -40,3 +40,24 @@
     background-repeat: no-repeat;
     background-position: center left;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: justify;
+    }
+
+    .contato__descricao {
+        margin-right: 1em;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__pesquisa {
+        width: 30%;
+    }
+}
