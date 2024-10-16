@@ -5,8 +5,7 @@
 }
 
 .contato__titulo,
-.contato__texto,
-.contato__pesquisa {
+.contato__texto {
     background-clip: text;
     background: var(--azul-degrade);
     -webkit-background-clip: text;
@@ -45,12 +44,14 @@
     .contato {
         display: flex;
         justify-content: center;
+        align-items:center; 
         align-content: center;
+        text-align: left;
     }
 
     .contato__descricao {
         margin-right: 1em;
-        width: 30%;
+        width: 35%;
     }
 
     .contato__titulo {
