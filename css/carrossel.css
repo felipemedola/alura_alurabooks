@@ -109,6 +109,10 @@
     }
 
     .descricao__titulo {
-        font-size: 26px;
+        font-size: 16px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
     }
 }
