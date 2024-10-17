@@ -51,3 +51,29 @@
         font-size: 24px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 4em 15vw;
+        border-top: none;
+    }
+
+    .topicos__titulo {
+        font-size: 32px;
+        padding: 0 0 1em;
+    }
+
+    .topicos__lista {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .topicos__item {
+        margin: 1.5em 0.75em 0;
+        padding: 2em 1.5em;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+}
